@@ -1,0 +1,150 @@
+/* BOOTSTRAP */
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;   
+    font-family: 'Montserrat';
+}
+
+#nav-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2%;
+}
+
+.nav-link-item {
+    text-decoration: none;
+    color: #000;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+/* LEFT SIDE */
+
+#grid-left-side {
+    background-color: #e7814b;
+    height: 100vh;
+}
+
+#grid-left-side-div-container {
+    margin: 5%;
+}
+
+.grid-left-side-para {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    /* font-size: 18px; */
+}
+
+.grid-left-side-para-desc {
+    font-weight: lighter;
+    color: #fff;
+}
+
+#grid-left-side-icon-div {
+    display: flex;
+}
+
+.icon-color-div {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 8%;
+}
+
+/* MAIN */
+
+#person-img-div {
+    background-color: #e7814b;
+    width: 250px;
+    height: 600px;
+    position: absolute;
+    top: 0%;
+    margin: 0px -12px;
+    padding: 0px;
+}
+
+#person-img {
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    box-shadow: 0px 0px 2px 2px rgba(87, 86, 86, 0.507);
+}
+
+#person-main-container {
+    
+}
+
+#person-desc-div {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.person-name {
+
+}
+
+#person-vertical-line {
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #9c5e16;
+    left: -38%;
+    margin-top: 2.5%;
+    
+}
+
+.person-skill {
+    color: #9c5e16;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.person-desc {
+    width: 300px;
+}
+
+#person-dot-div {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+.person-dot {
+    position: absolute;
+    right: 5%;
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ea9162;
+}
+
+.person-dot-2 {
+    margin-top: 25px;
+    background-color: #f9e3d7;
+}
+
+.person-dot-3 {
+    margin-top: 50px;
+    background-color: #f9e3d7;
+}
+
+.person-dot-4 {
+    margin-top: 75px;
+    background-color: #f9e3d7;
+}
+
+.person-dot-5 {
+    margin-top: 100px;
+    background-color: #f9e3d7;
+}
