@@ -28,7 +28,7 @@ body {
 
 #grid-left-side {
     background-color: #e7814b;
-    height: 100vh;
+    height: 200vh;
 }
 
 #grid-left-side-div-container {
@@ -61,7 +61,7 @@ body {
 
 #person-img-div {
     background-color: #e7814b;
-    width: 250px;
+    width: 180px;
     height: 600px;
     position: absolute;
     top: 0%;
@@ -71,11 +71,11 @@ body {
 
 #person-img {
     object-fit: cover;
-    width: 300px;
-    height: 400px;
+    width: 390px;
+    height: 490px;
     position: relative;
-    top: 20%;
-    left: 50%;
+    top: 10%;
+    left: 0%;
     box-shadow: 0px 0px 2px 2px rgba(87, 86, 86, 0.507);
 }
 
@@ -86,7 +86,8 @@ body {
 #person-desc-div {
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 51%;
+
 }
 
 .person-name {
@@ -113,7 +114,7 @@ body {
     width: 300px;
 }
 
-#person-dot-div {
+.person-dot-div {
     position: absolute;
     top: 35%;
     right: 5%;
@@ -147,4 +148,92 @@ body {
 .person-dot-5 {
     margin-top: 100px;
     background-color: #f9e3d7;
+}
+
+/* PORTFOLIO */
+
+#portfolio-section {
+    display: relative;
+    margin-top: 600px;
+}
+
+#portfolio-div {
+    margin: 0 50px;
+}
+
+#portfolio-heading {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.portfolio-img-div {
+    padding: 20px;
+    /* margin: 10px; */
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.portfolio-img-div:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+    
+} 
+
+.portfolio-img-inner-div {
+    background-color: #000;
+}
+
+.portfolio-img:hover {
+    opacity: 0.6;
+    transition: 0.2s ease-out;
+}
+
+.white-portfolio {
+    background-color: rgb(247, 244, 244);
+}
+
+.gray-portfolio {
+    background-color: rgb(228, 226, 226);
+}
+
+.portfolio-img {
+    width: 400px;
+    transition: 0.2s ease-in;
+}
+
+#portfolio-img-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.portfolio-dot-div {
+    top: 118%;
+}
+
+.portfolio-dot-1 {
+    background-color: #f9e3d7;
+}
+
+.portfolio-dot-2 {
+    background-color: #ea9162;
+}
+
+#portfolio-button-div {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    
+}
+
+#portfolio-button {
+    background-color: #ea9162;
+    padding: 10px 40px;
+    width: 200px;
+    color: #fff;
+    border: none;
 }
